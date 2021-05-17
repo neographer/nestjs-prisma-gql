@@ -11,9 +11,9 @@ generator client {
 }
 
 model Employee {
-  id Int @id @default(autoincrement())
-  name String
-  age Int
-  place String
+  id     Int     @id @default(autoincrement())
+  name   String
+  age    Int
+  place  String
   active Boolean
 }
