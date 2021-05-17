@@ -17,3 +17,15 @@ model Employee {
   place  String
   active Boolean
 }
+
+model User {
+  id         Int    @id @default(autoincrement())
+  firstname  String
+  lastname   String
+  email      String
+  mobile     String
+  gender     String
+  location   String
+  age        Int
+  experience Int
+}
